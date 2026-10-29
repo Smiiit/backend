@@ -1,0 +1,11 @@
+routes (Which URL and HTTP method are supported)
+  ↓
+middlewares (Is the request authenticated and valid)
+  ↓
+controller (What did the client request, and what response should it receive)
+  ↓
+service (What business operation must happen)
+  ↓
+repository (Which database operations are needed)
+  ↓
+SQL Server (Where is the data stored)

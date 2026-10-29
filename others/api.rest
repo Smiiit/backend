@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/v1/products/where
+Content-Type: application/json
+
+{
+    "WHERE" : "product_name like '%no%'"
+}
